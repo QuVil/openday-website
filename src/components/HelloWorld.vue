@@ -17,8 +17,19 @@
 
         <p class="subheading font-weight-regular">
           Journée de l'open source à l'université Lyon 2
-          <br>Le jeudi 4 février de 9h à 14h
+          <br>Le mercredi 3 février de 9h à 14h
         </p>
+      </v-col>
+
+      <v-col
+          class="mb-5"
+          cols="12"
+      >
+        <h2 class="headline font-weight-bold mb-3">
+          Plannings de la journée :
+        </h2>
+
+
       </v-col>
 
       <v-col

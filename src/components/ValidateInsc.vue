@@ -2,7 +2,7 @@
   <v-container>
     <v-row class="text-center">
       <v-col cols="12">
-        Merci pour votre inscription et rendez vous le 3 février !
+        Merci pour votre inscription et rendez-vous le mercredi 3 février 2021!
       </v-col>
     </v-row>
   </v-container>

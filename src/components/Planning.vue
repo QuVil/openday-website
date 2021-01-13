@@ -29,22 +29,22 @@
         ],
         desserts: [
           {
-            name: '9h - 9h 45',
+            name: '8h 30 - 9h 15',
             category: 'Présentation du logiciel libre',
             intervenant: 'A déterminer'
           },
           {
-            name: '9h 45 - 10h 30',
+            name: '9h 15 - 10h',
             category: 'L\'intérêt du logiciel libre en entreprise',
             intervenant: 'A déterminer'
           },
           {
-            name: '10h 45 - 10h 30',
+            name: '10h 15 - 11h',
             category: 'Comment contribuer ?',
             intervenant: 'A déterminer'
           },
           {
-            name: '11h 30 - 12h 15',
+            name: '11h - 11h 45',
             category: 'Le futur du logiciel libre',
             intervenant: 'A déterminer'
           },

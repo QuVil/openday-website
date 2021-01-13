@@ -9,7 +9,8 @@
         </v-app-bar-nav-icon>
       </div>
       <v-spacer></v-spacer>
-      <div class="d-flex align-center">
+      <div class="d-flex align-right">
+        <router-link to="/" >
         <v-img
           alt="Vuetify Logo"
           contain
@@ -17,11 +18,10 @@
           transition="scale-transition"
           width="40"
         />
-        <v-spacer></v-spacer>
-        OpenDay
+        </router-link>
       </div>
 
-      <v-spacer></v-spacer>
+
       
     </v-app-bar>
     <v-navigation-drawer
@@ -37,38 +37,85 @@
             v-model="group"
             active-class="deep-purple--text text--accent-4"
         >
+          <router-link to="/" tag="v-list-item" >
+              <v-list-item>
+                <v-list-item-icon>
+                  <v-icon>mdi-home</v-icon>
+                </v-list-item-icon>
+                <v-list-item-title>Accueil </v-list-item-title>
+              </v-list-item>
+          </router-link>
+
+          <router-link to="/Inscription" tag="v-list-item" >
+            <v-list-item>
+              <v-list-item-icon>
+                <v-icon>mdi-account</v-icon>
+              </v-list-item-icon>
+              <v-list-item-title>Inscription</v-list-item-title>
+            </v-list-item>
+          </router-link>
+
+          <router-link to="/Planning" tag="v-list-item" >
+            <v-list-item>
+              <v-list-item-icon>
+                <v-icon>mdi-event</v-icon>
+              </v-list-item-icon>
+              <v-list-item-title>Planning</v-list-item-title>
+            </v-list-item>
+          </router-link>
+
+          <router-link to="/" tag="v-list-item" >
+            <v-list-item>
+              <v-list-item-icon>
+                <v-icon>mdi-event</v-icon>
+              </v-list-item-icon>
+              <v-list-item-title>Quizz</v-list-item-title>
+            </v-list-item>
+          </router-link>
+
+          <router-link to="/" tag="v-list-item" >
           <v-list-item>
+
+
             <v-list-item-icon>
               <v-icon>mdi-home</v-icon>
             </v-list-item-icon>
-            <v-list-item-title>Home</v-list-item-title>
-          </v-list-item>
+            <v-list-item-title>Contact</v-list-item-title>
 
-          <v-list-item>
-            <v-list-item-icon>
-              <v-icon>mdi-account</v-icon>
-            </v-list-item-icon>
-            <v-list-item-title>Account</v-list-item-title>
           </v-list-item>
+          </router-link>
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>
 
     <v-main>
-      <HelloWorld/>
+      <router-view></router-view>
     </v-main>
   </v-app>
 </template>
 
 <script>
+import Vue from 'vue';
+import VueRouter from 'vue-router';
 import HelloWorld from './components/HelloWorld';
+import Planning from "./components/Planning";
+import Inscription from "./components/Inscription";
+
+Vue.use(VueRouter);
+// Defining the routes
+const routes = [
+  { path: '/', component: HelloWorld },
+  { path: '/Planning', component: Planning },
+  {path: '/Inscription', component: Inscription}
+];
+// Creating the router
+const router = new VueRouter({ routes });
 
 export default {
+  router,
   name: 'App',
 
-  components: {
-    HelloWorld,
-  },
+
 
   data: () => ({
     drawer: false,

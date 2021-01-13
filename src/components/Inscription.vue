@@ -97,6 +97,7 @@ export default {
     submit () {
       this.$v.$touch()
       this.sendEmail()
+      this.$router.push('/validate')
     },
     sendEmail() {
       try {
@@ -112,7 +113,7 @@ export default {
         console.log({error})
       }
       // Reset form field
-      this.name = ''
+      this.phone = ''
       this.email = ''
       this.message = ''
     },

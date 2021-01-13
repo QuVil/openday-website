@@ -64,7 +64,7 @@
             </v-list-item>
           </router-link>
 
-          <router-link to="/" tag="v-list-item" >
+          <!--<router-link to="/" tag="v-list-item" >
             <v-list-item>
               <v-list-item-icon>
                 <v-icon>mdi-event</v-icon>
@@ -83,7 +83,7 @@
             <v-list-item-title>Contact</v-list-item-title>
 
           </v-list-item>
-          </router-link>
+          </router-link>-->
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>
@@ -100,13 +100,15 @@ import VueRouter from 'vue-router';
 import HelloWorld from './components/HelloWorld';
 import Planning from "./components/Planning";
 import Inscription from "./components/Inscription";
+import ValidateInsc from "./components/ValidateInsc";
 
 Vue.use(VueRouter);
 // Defining the routes
 const routes = [
   { path: '/', component: HelloWorld },
   { path: '/Planning', component: Planning },
-  {path: '/Inscription', component: Inscription}
+  {path: '/Inscription', component: Inscription},
+  {path: '/validate', component: ValidateInsc}
 ];
 // Creating the router
 const router = new VueRouter({ routes });

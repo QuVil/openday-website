@@ -3,7 +3,9 @@
     <v-row class="text-center">
       <v-col cols="12">
         Inscription obligatoire pour pouvoir participer à l'événement.<br>
-        Fermeture des inscrption le dimanche 31 janvier.
+        Fermeture des inscrption le dimanche 31 janvier.<br>
+        Les adresse mail seront seulement utilisé pour vous envoyer le lien de la plateforme de visioconférence quelques jours avant l'événement.
+        Toutes les données enregistrées seront supprimées après l'événement.
 
       </v-col>
     </v-row>

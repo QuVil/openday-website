@@ -9,7 +9,7 @@
 
       </v-col>
     </v-row>
-    <form @submit.prevent="sendEmail">
+    <form @submit.prevent="submit">
       <v-row class="text-center">
         <v-col cols="12"
         md="4"
@@ -96,8 +96,12 @@ export default {
   methods: {
     submit () {
       this.$v.$touch()
-      this.sendEmail()
-      this.$router.push('/validate')
+      const err = this.emailErrors;
+      const err2 = this.phoneErrors;
+      if (err.length == 0 && (!this.checkbox || err2.length == 0)) {
+        this.sendEmail()
+        this.$router.push('/validate')
+      }
     },
     sendEmail() {
       try {

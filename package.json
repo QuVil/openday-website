@@ -13,7 +13,8 @@
     "vue-router": "^3.4.9",
     "vuetify": "^2.2.11",
     "vuelidate": "^0.7.6",
-    "emailjs-com": "^2.6.4"
+    "emailjs-com": "^2.6.4",
+    "@mdi/font": "^5.8.55"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

@@ -58,7 +58,7 @@
           <router-link to="/Planning" tag="v-list-item" >
             <v-list-item>
               <v-list-item-icon>
-                <v-icon>mdi-event</v-icon>
+                <v-icon>mdi-calendar-clock</v-icon>
               </v-list-item-icon>
               <v-list-item-title>Planning</v-list-item-title>
             </v-list-item>

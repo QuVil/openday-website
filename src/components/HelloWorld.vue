@@ -16,8 +16,8 @@
         </h1>
 
         <p class="subheading font-weight-regular">
-          Journée de l'open source à l'Université Lumière Lyon 2
-          <br>Le mercredi 3 février 2021 de 8h 30 à 14h
+          Journée du libre de l'Université Lumière Lyon 2
+          <br>Le mercredi 3 février 2021 de 8h30 à 14h
         </p>
       </v-col>
 
@@ -26,7 +26,7 @@
         cols="12"
       >
         <h2 class="headline font-weight-bold mb-3">
-          Autres organisations du libre
+          Les acteurs du libre
         </h2>
       </v-col>
       <v-col class="mb-5"

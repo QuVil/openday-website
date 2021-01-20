@@ -1,16 +1,8 @@
 <template>
   <v-container>
-<!--    <v-row class="text-center">-->
-<!--      <v-col cols="12">-->
-<!--        Inscription obligatoire pour participer à l'événement.<br>-->
-<!--        Fermeture des inscrption le dimanche 31 janvier.<br>-->
-<!--        Les adresses mails seront seulement utilisées pour vous envoyer le lien de la plateforme de visioconférence quelques jours avant l'événement.-->
-<!--        Toutes les données enregistrées seront supprimées après l'événement.-->
-
-<!--      </v-col>-->
-<!--    </v-row>-->
     <div id="insc-text">
       <v-card :loading="loading" class="mx-auto my-12">
+
         <template slot="progress">
           <v-progress-linear
               color="deep-purple"
@@ -51,6 +43,10 @@
 <script>
 export default {
   name: "Inscription",
+
+  data: () => ({
+    loading: false,
+  }),
 
   methods: {
     insc () {

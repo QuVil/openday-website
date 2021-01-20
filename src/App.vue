@@ -12,9 +12,9 @@
       <div class="d-flex align-right">
         <router-link to="/" >
         <v-img
-          alt="Vuetify Logo"
+          alt="OpenDay Logo"
           contain
-          :src="require('./assets/od.png')"
+          :src="require('./assets/logo.png')"
           transition="scale-transition"
           width="40"
         />

@@ -23,28 +23,37 @@
             text: 'Horaire',
             align: 'start',
             value: 'name',
+            sortable: false
           },
-          { text: 'Sujet de la conférence', value: 'category' },
-          { text: "Intervenant", value: 'intervenant'}
+          {
+            text: 'Sujet de la conférence',
+            value: 'category',
+            sortable: false
+          },
+          {
+            text: "Intervenant·e·s",
+            value: 'intervenant',
+            sortable: false
+          }
         ],
         desserts: [
           {
-            name: '8h 30 - 9h 15',
+            name: '8h30 - 9h15',
             category: 'Présentation du logiciel libre',
             intervenant: 'A déterminer'
           },
           {
-            name: '9h 15 - 10h',
+            name: '9h15 - 10h',
             category: 'L\'intérêt du logiciel libre en entreprise',
-            intervenant: 'A déterminer'
+            intervenant: 'Clément OUDOT & Damien ACCORSI'
           },
           {
-            name: '10h 15 - 11h',
+            name: '10h15 - 11h',
             category: 'Comment contribuer ?',
-            intervenant: 'A déterminer'
+            intervenant: 'Melanie NGUYEN'
           },
           {
-            name: '11h - 11h 45',
+            name: '11h - 11h45',
             category: 'Le futur du logiciel libre',
             intervenant: 'A déterminer'
           },

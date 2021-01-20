@@ -26,59 +26,39 @@
         cols="12"
       >
         <h2 class="headline font-weight-bold mb-3">
-          Liens intéressants
+          Autres organisations du libre
         </h2>
-
-        <v-row justify="center">
-          <a
-            v-for="(next, i) in whatsNext"
-            :key="i"
-            :href="next.href"
-            class="subheading mx-3"
-            target="_blank"
-          >
-            {{ next.text }}
-          </a>
-        </v-row>
       </v-col>
+      <v-col class="mb-5"
+      md="4" offset-md="4">
+        <v-row align="center"
+               justify="center">
 
-      <v-col
-        class="mb-5"
-        cols="12"
-      >
-        <h2 class="headline font-weight-bold mb-3">
-        </h2>
+            <a href="https://framasoft.org/fr/" target="_blank">
+              <v-img
+                  alt="Framasoft Logo"
+                  :src="require('../assets/framasoft.png')"
+                  max-width="250"
+              />
+            </a>
+          <v-spacer></v-spacer>
+            <a href="https://www.ploss-ra.fr/" target="_blank">
+              <v-img
+                  alt="Ploss-ra Logo"
+                  :src="require('../assets/ploss-ra.png')"
+                  max-width="250"
+              />
 
-        <v-row justify="center">
-          <a
-            v-for="(link, i) in importantLinks"
-            :key="i"
-            :href="link.href"
-            class="subheading mx-3"
-            target="_blank"
-          >
-            {{ link.text }}
-          </a>
-        </v-row>
-      </v-col>
+            </a>
+          <v-spacer></v-spacer>
+            <a href="https://www.aldil.org/" target="_blank">
+              <v-img
+                  alt="Aldil Logo"
+                  :src="require('../assets/ALDIL.png')"
+                  max-width="250"
+              />
 
-      <v-col
-        class="mb-5"
-        cols="12"
-      >
-        <h2 class="headline font-weight-bold mb-3">
-        </h2>
-
-        <v-row justify="center">
-          <a
-            v-for="(eco, i) in ecosystem"
-            :key="i"
-            :href="eco.href"
-            class="subheading mx-3"
-            target="_blank"
-          >
-            {{ eco.text }}
-          </a>
+            </a>
         </v-row>
       </v-col>
     </v-row>
@@ -94,20 +74,6 @@
       ],
       importantLinks: [
 
-      ],
-      whatsNext: [
-        {
-          text: 'Liste de logiciel libre',
-          href: 'https://framalibre.org/',
-        },
-        {
-          text: 'Journée du logiciel libre',
-          href: 'https://www.jdll.org/',
-        },
-        {
-          text: 'Framasoft',
-          href: 'https://framasoft.org/fr/',
-        },
       ],
     }),
   }

@@ -33,26 +33,26 @@
       md="4" offset-md="4">
         <v-row align="center"
                justify="center">
-
             <a href="https://framasoft.org/fr/" target="_blank">
               <v-img
+                  class="ma-5"
                   alt="Framasoft Logo"
                   :src="require('../assets/framasoft.png')"
                   max-width="250"
               />
             </a>
-          <v-spacer></v-spacer>
             <a href="https://www.ploss-ra.fr/" target="_blank">
               <v-img
+                  class="ma-5"
                   alt="Ploss-ra Logo"
                   :src="require('../assets/ploss-ra.png')"
                   max-width="250"
               />
 
             </a>
-          <v-spacer></v-spacer>
             <a href="https://www.aldil.org/" target="_blank">
               <v-img
+                  class="ma-5"
                   alt="Aldil Logo"
                   :src="require('../assets/ALDIL.png')"
                   max-width="250"

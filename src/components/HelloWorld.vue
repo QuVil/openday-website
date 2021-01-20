@@ -16,21 +16,21 @@
         </h1>
 
         <p class="subheading font-weight-regular">
-          Journée du libre de l'Université Lumière Lyon 2
-          <br>Le mercredi 3 février 2021 de 8h30 à 14h
+          La matinée du libre de l'Université Lumière Lyon 2
+          <br>Le mercredi 3 février 2021 de 8h30 à 12h
         </p>
       </v-col>
 
       <v-col
-        class="mb-5"
+        class="mb-1"
         cols="12"
       >
-        <h2 class="headline font-weight-bold mb-3">
-          Les acteurs du libre
-        </h2>
       </v-col>
       <v-col class="mb-5"
       md="4" offset-md="4">
+        <h2 class="headline font-weight-bold mb-3">
+          Les acteurs du libre
+        </h2>
         <v-row align="center"
                justify="center">
             <a href="https://framasoft.org/fr/" target="_blank">

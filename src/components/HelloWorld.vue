@@ -27,7 +27,7 @@
       >
       </v-col>
       <v-col class="mb-5"
-      md="4" offset-md="4">
+      md="10" offset-md="1">
         <h2 class="headline font-weight-bold mb-3">
           Les acteurs du libre
         </h2>
@@ -59,6 +59,42 @@
               />
 
             </a>
+          <a href="https://www.april.org/" target="_blank">
+            <v-img
+                class="ma-5"
+                alt="April Logo"
+                :src="require('../assets/april.png')"
+                max-width="250"
+            />
+
+          </a>
+          <!--<a href="http://www.apitux.com/" target="_blank">
+            <v-img
+                class="ma-5"
+                alt="Apitux Logo"
+                :src="require('../assets/apitux.png')"
+                max-width="250"
+            />
+
+          </a>
+          <a href="https://www.algoo.fr/fr/" target="_blank">
+            <v-img
+                class="ma-5"
+                alt="Algoo Logo"
+                :src="require('../assets/algoo.png')"
+                max-width="250"
+            />
+
+          </a>
+          <a href="https://www.worteks.com/" target="_blank">
+            <v-img
+                class="ma-5"
+                alt="April Logo"
+                :src="require('../assets/worteks.png')"
+                max-width="250"
+            />
+
+          </a>-->
         </v-row>
       </v-col>
     </v-row>

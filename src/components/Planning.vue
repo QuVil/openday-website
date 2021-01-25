@@ -38,23 +38,23 @@
         ],
         desserts: [
           {
-            name: '8h30 - 9h15',
+            name: '9h - 9h45',
             category: 'Présentation du logiciel libre',
-            intervenant: 'A déterminer'
+            intervenant: 'Jean-Christophe BECQUET'
           },
           {
-            name: '9h15 - 10h',
+            name: '9h45 - 10h30',
             category: 'L\'intérêt du logiciel libre en entreprise',
             intervenant: 'Clément OUDOT & Damien ACCORSI'
           },
           {
-            name: '10h15 - 11h',
-            category: 'Comment contribuer ?',
-            intervenant: 'Melanie NGUYEN'
+            name: '10h45 - 11h30',
+            category: 'Comment contribuer au logiciel libre ?',
+            intervenant: 'Mélanie NGUYEN'
           },
           {
-            name: '11h - 11h45',
-            category: 'Le futur du logiciel libre',
+            name: '11h30 - 12h15',
+            category: 'A déterminer',
             intervenant: 'A déterminer'
           },
         ],

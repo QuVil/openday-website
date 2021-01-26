@@ -7,6 +7,7 @@
         item-key="name"
         class="elevation-1"
         hide-default-footer
+        style="white-space: pre;"
     ></v-data-table>
   </v-container>
 
@@ -40,22 +41,18 @@
           {
             name: '9h - 9h45',
             category: 'Présentation du logiciel libre',
-            intervenant: 'Jean-Christophe BECQUET'
+            intervenant: 'Jean-Christophe BECQUET (Apitux)'
           },
           {
             name: '9h45 - 10h30',
-            category: 'L\'intérêt du logiciel libre en entreprise',
-            intervenant: 'Clément OUDOT & Damien ACCORSI'
+            category: 'Logiciel libre, entreprises et modèles économiques.\n' +
+                'Retour d\'expérience avec les sociétés Algoo et Worteks',
+            intervenant: 'Clément OUDOT (Worteks)\nDamien ACCORSI (Algoo)'
           },
           {
             name: '10h45 - 11h30',
             category: 'Comment contribuer au logiciel libre ?',
             intervenant: 'Mélanie NGUYEN'
-          },
-          {
-            name: '11h30 - 12h15',
-            category: 'A déterminer',
-            intervenant: 'A déterminer'
           },
         ],
       }

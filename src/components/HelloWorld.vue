@@ -17,7 +17,7 @@
 
         <p class="subheading font-weight-regular">
           La matinée du libre de l'Université Lumière Lyon 2
-          <br>Le mercredi 3 février 2021 de 8h30 à 12h
+          <br>Le mercredi 3 février 2021 de 9h à 12h30
         </p>
       </v-col>
 
@@ -29,7 +29,7 @@
       <v-col class="mb-5"
       md="10" offset-md="1">
         <h2 class="headline font-weight-bold mb-3">
-          Les acteurs du libre
+          Des acteurs du libre
         </h2>
         <v-row align="center"
                justify="center">
@@ -50,7 +50,7 @@
               />
 
             </a>
-            <a href="https://www.aldil.org/" target="_blank">
+            <!--<a href="https://www.aldil.org/" target="_blank">
               <v-img
                   class="ma-5"
                   alt="Aldil Logo"
@@ -58,7 +58,7 @@
                   max-width="250"
               />
 
-            </a>
+            </a>-->
           <a href="https://www.april.org/" target="_blank">
             <v-img
                 class="ma-5"
@@ -68,7 +68,7 @@
             />
 
           </a>
-          <!--<a href="http://www.apitux.com/" target="_blank">
+          <a href="http://www.apitux.com/" target="_blank">
             <v-img
                 class="ma-5"
                 alt="Apitux Logo"
@@ -94,7 +94,7 @@
                 max-width="250"
             />
 
-          </a>-->
+          </a>
         </v-row>
       </v-col>
     </v-row>

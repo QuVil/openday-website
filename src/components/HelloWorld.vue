@@ -68,6 +68,15 @@
             />
 
           </a>
+          <a href="https://www.oisux.org/" target="_blank">
+            <v-img
+                class="ma-5"
+                alt="Oisux Logo"
+                :src="require('../assets/oisux.png')"
+                max-width="250"
+            />
+
+          </a>
           <a href="http://www.apitux.com/" target="_blank">
             <v-img
                 class="ma-5"

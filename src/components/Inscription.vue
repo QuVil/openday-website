@@ -14,7 +14,7 @@
         <v-card-title>Procédure d'inscription</v-card-title>
         <v-card-text>
           <div>
-            L'inscription est obligatoire pour participer à l'événement. La fermeture des inscription est prévue pour le 1er février 2021.<br/>
+            L'inscription est obligatoire pour participer à l'événement. La fermeture des inscription est prévue pour le 2 février 2021.<br/>
             Votre adresse mail sera uniquement utilisée pour vous envoyer le lien de la plate-forme de visio-conférence quelques jours avant l'événement.<br/>
             Toutes les données enregistrées seront supprimées dès la fin des conférences.
           </div>

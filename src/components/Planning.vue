@@ -1,5 +1,6 @@
 <template>
   <v-container>
+    <div>
     <v-data-table
         :headers="headers"
         :items="desserts"
@@ -8,7 +9,9 @@
         class="elevation-1"
         hide-default-footer
         style="white-space: pre;"
+        width="100%"
     ></v-data-table>
+    </div>
   </v-container>
 
 </template>
@@ -53,6 +56,11 @@
             name: '10h45 - 11h30',
             category: 'Comment contribuer au logiciel libre ?',
             intervenant: 'Mélanie NGUYEN'
+          },
+          {
+            name: '11h30 - 12h15',
+            category: 'Favoriser l\'auto-hébergement des données personnelles avec un Raspberry \nderrière sa box au lieu de consommer du data-center américain.',
+            intervenant: 'Marc HEPIEGNE (Oisux)\nSamuel VERMEULEN (Oisux)\nJean-Louis LECORNU (Oisux)'
           },
         ],
       }

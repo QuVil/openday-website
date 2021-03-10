@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row class="text-center">
-      <v-col cols="12">
+      <!--<v-col cols="12">
         <v-img
           :src="require('../assets/logo.png')"
           class="my-3"
@@ -25,7 +25,12 @@
         class="mb-1"
         cols="12"
       >
-      </v-col>
+      </v-col>-->
+      <v-img
+          src="../assets/open.png"
+          class="my-3"
+          contain
+          max-height="800"/>
       <v-col class="mb-5"
       md="10" offset-md="1">
         <h2 class="headline font-weight-bold mb-3">

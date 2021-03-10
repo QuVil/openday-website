@@ -60,7 +60,7 @@
               <v-list-item-icon>
                 <v-icon>mdi-calendar-clock</v-icon>
               </v-list-item-icon>
-              <v-list-item-title>Planning</v-list-item-title>
+              <v-list-item-title>Conférences</v-list-item-title>
             </v-list-item>
           </router-link>
 
@@ -91,13 +91,25 @@
     <v-main>
       <router-view></router-view>
     </v-main>
+    <v-footer
+        :padless="padless"
+    >
+      <v-col
+          class="text-center"
+          cols="12"
+      >
+        {{ new Date().getFullYear() }} — <strong>Développé avec Vuetify</strong><br/>
+        Code disponible sur <a href="https://github.com/QuVil/openday-website" target="_blank">GitHub</a>
+      </v-col>
+    </v-footer>
   </v-app>
+
 </template>
 
 <script>
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import HelloWorld from './components/HelloWorld';
+import HelloWorld from './components/Accueil';
 import Planning from "./components/Planning";
 import Inscription from "./components/Inscription";
 import ValidateInsc from "./components/ValidateInsc";
